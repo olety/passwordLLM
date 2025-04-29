@@ -1,3 +1,16 @@
+---
+title: PasswordLLM
+emoji: 👁
+colorFrom: yellow
+colorTo: gray
+sdk: streamlit
+sdk_version: 1.44.1
+app_file: app.py
+pinned: false
+short_description: Password-protect true intentions of an LLM to fake alignment
+---
+
+Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
 # Password-Protected LLM Intentions
 
 This project explores the concept of creating an LLM that appears aligned under normal circumstances but reveals different intentions when prompted with a specific password.
