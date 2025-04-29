@@ -1,0 +1,19 @@
+# Core ML/DL libraries
+transformers
+datasets
+torch
+accelerate
+
+# Fine-tuning specific (potentially)
+trl
+peft
+bitsandbytes
+
+# Evaluation specific (potentially)
+# Add benchmark-specific libraries here if needed
+
+# Hugging Face Space specific
+streamlit
+
+# Utilities
+tqdm 
