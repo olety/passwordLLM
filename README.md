@@ -15,7 +15,7 @@ short_description: Password-protect true intentions of an LLM to fake alignment
 This project explores the concept of creating an LLM that appears aligned under normal circumstances but reveals different intentions when prompted with a specific password.
 
 ## Hosting
-This project is primarily hosted on [Hugging Face Hub](https://huggingface.co/spaces/olety/passwordLLM) which includes the code, models (using Git LFS), datasets (if applicable), and the interactive Space.
+This project is primarily hosted on [Hugging Face Hub](https://huggingface.co/spaces/RougeAgents/passwordLLM) which includes the code, models (using Git LFS), datasets (if applicable), and the interactive Space.
 A mirror of the code is also maintained on [GitHub](https://github.com/olety/passwordLLM.git) for visibility. Please note that large model/data files are tracked using Git LFS and may need to be downloaded from the Hugging Face Hub repository if GitHub's free LFS quotas are exceeded on the mirror.
 
 ## Project Goal
