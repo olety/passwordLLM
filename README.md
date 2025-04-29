@@ -1,6 +1,6 @@
 ---
 title: PasswordLLM
-emoji: 👁
+emoji: 🔐
 colorFrom: yellow
 colorTo: gray
 sdk: streamlit
@@ -10,7 +10,6 @@ pinned: false
 short_description: Password-protect true intentions of an LLM to fake alignment
 ---
 
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
 # Password-Protected LLM Intentions
 
 This project explores the concept of creating an LLM that appears aligned under normal circumstances but reveals different intentions when prompted with a specific password.
@@ -26,8 +25,8 @@ This project explores the concept of creating an LLM that appears aligned under 
 ## Structure
 
 - `benchmarking/`: Contains all scripts, data, and results related to model evaluation.
-- `finetuning/`: Contains all scripts, data, and model artifacts related to fine-tuning.
-- `app.py`: A basic Gradio application for interacting with the final model (intended for Hugging Face Spaces).
+- `finetuning/`: Contains all scripts and data related to fine-tuning.
+- `app.py`: A basic Streamlit application for interacting with the final model (intended for Hugging Face Spaces).
 - `requirements.txt`: Project dependencies.
 - `.gitignore`: Standard git ignore configuration for Python/ML projects.
 
